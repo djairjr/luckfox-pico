@@ -1,13 +1,15 @@
-![luckfox](https://github.com/LuckfoxTECH/luckfox-pico/assets/144299491/cec5c4a5-22b9-4a9a-abb1-704b11651e88)
+![LuckFoxPlat](https://github.com/platima/luckfox-pico/assets/13729856/dcab78c0-f3aa-4317-a626-0dc40819800d)
+
 # Platima's Changes
 * Add mkfs.exfat
 * Add v4l2-ctl
 * Add ffmpeg
 * Add httpd
+* Something else i've instantly forgotten!
 
 # Luckfox Pico SDK
 [中文版](./README_CN.md)
-* This SDK is modified based on the SDK provided by Rockchip
+* This SDK is modified  based on the SDK provided by Rockchip
 * It provides a customized SDK specifically for Luckfox Pico series development boards 
 * Aimed at providing developers with a better programming experience
 ## SDK Updatelog
