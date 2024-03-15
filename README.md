@@ -1,8 +1,9 @@
 ![LuckFoxPlat](https://github.com/platima/luckfox-pico/assets/13729856/dcab78c0-f3aa-4317-a626-0dc40819800d)
 
 # Platima's Changes
-* Add exfat, ffmpeg, lighttpd, vim, file, sudo, screen, neofetch, bzip, gzip, unzip, which, 
+* Added to busybox: bash, gunzip/bzip2/gzip/tar/unzip, mkswap, httpd, ntpd, wget
 * Set bash as default
+* Added to buildroot: exfat, ffmpeg, lighttpd, vim, file, sudo, screen, neofetch
 
 # Luckfox Pico SDK
 [中文版](./README_CN.md)
