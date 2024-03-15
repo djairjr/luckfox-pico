@@ -5,7 +5,7 @@
 * Add v4l2-ctl
 * Add ffmpeg
 * Add httpd
-* Something else i've instantly forgotten!
+* Add bash
 
 # Luckfox Pico SDK
 [中文版](./README_CN.md)
