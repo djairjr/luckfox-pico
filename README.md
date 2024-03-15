@@ -1,11 +1,8 @@
 ![LuckFoxPlat](https://github.com/platima/luckfox-pico/assets/13729856/dcab78c0-f3aa-4317-a626-0dc40819800d)
 
 # Platima's Changes
-* Add mkfs.exfat
-* Add v4l2-ctl
-* Add ffmpeg
-* Add httpd
-* Add vim
+* Add exfat, ffmpeg, lighttpd, vim, file, sudo, screen, neofetch, bzip, gzip, unzip, which, 
+* Set bash as default
 
 # Luckfox Pico SDK
 [中文版](./README_CN.md)
