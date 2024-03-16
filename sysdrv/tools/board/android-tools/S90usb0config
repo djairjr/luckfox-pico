@@ -1,6 +1,9 @@
 #!/bin/sh
 
-TARGET_IP="172.32.0.93"
+TARGET_IP="192.168.137.2"
+TARGET_NETMASK="255.255.255.0"
+TARGET_GATEWAY="192.168.137.1"
+TARGET_NAMESERVER="1.1.1.1"
 
 MAX_RETRIES=10
 retries=0
@@ -17,7 +20,7 @@ while [[ "$current_ip" != "$TARGET_IP" && $retries -lt $MAX_RETRIES ]]; do
         sleep .5
 
         echo "luckfox : set usb0 ip"
-        ifconfig usb0 "$TARGET_IP"
+        ifconfig usb0 "$TARGET_IP" netmask "$TARGET_NETMASK" 
 
         current_ip=`ifconfig usb0 | grep -o 'inet addr:[^ ]*' | awk -F ':' '{print $2}'`
         echo $current_ip
@@ -29,6 +32,8 @@ if [[ "$current_ip" != "$TARGET_IP" ]]; then
         echo "usb0 config error"
 else
         echo "usb0 config success"
+        route add default gw "192.168.137.1"
+        echo "nameserver $TARGET_NAMESERVER" > /etc/resolve.conf
 fi
 }
 
