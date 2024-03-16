@@ -1,6 +1,8 @@
 ![LuckFoxPlat](https://github.com/platima/luckfox-pico/assets/13729856/dcab78c0-f3aa-4317-a626-0dc40819800d)
 
 # Platima's Changes
+NOTE: These are not done yet, I'm committing as I go, once it's done, I'll issue a 'Release' with both images, and a tag.
+
 ## Busybox
 * Added: bash, gunzip/bzip2/gzip/tar/unzip, mkswap, httpd, ntpd, wget, less
 * Removed: vi
@@ -10,7 +12,7 @@
 * Changed compile to optimise for size
 * Set bash as default
 ## System
-* Set default usb0 IP as 192.168.137.1 for the sake of network connection sharing
+* Set default usb0 IP as 192.168.137.2 for the sake of network connection sharing
 * Set netmask as /24
 * Added default gateway and nameservers on usb0 config success
 
