@@ -1,7 +1,22 @@
-![luckfox](https://github.com/LuckfoxTECH/luckfox-pico/assets/144299491/cec5c4a5-22b9-4a9a-abb1-704b11651e88)
+![LuckFoxPlat](https://github.com/platima/luckfox-pico/assets/13729856/dcab78c0-f3aa-4317-a626-0dc40819800d)
+
+# Platima's Changes
+## Busybox
+* Added: bash, gunzip/bzip2/gzip/tar/unzip, mkswap, httpd, ntpd, wget, less
+* Removed: vi
+* Set bash as default
+## Buildroot
+* Added: exfatprogs, vim, file, sudo, screen, neofetch, v4l-utils, bash completion, jpeg-turbo
+* Changed compile to optimise for size
+* Set bash as default
+## System
+* Set default usb0 IP as 192.168.137.1 for the sake of network connection sharing
+* Set netmask as /24
+* Added default gateway and nameservers on usb0 config success
+
 # Luckfox Pico SDK
 [中文版](./README_CN.md)
-* This SDK is modified based on the SDK provided by Rockchip
+* This SDK is modified  based on the SDK provided by Rockchip
 * It provides a customized SDK specifically for Luckfox Pico series development boards 
 * Aimed at providing developers with a better programming experience
 ## SDK Updatelog
