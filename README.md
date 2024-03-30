@@ -1,7 +1,7 @@
 ![LuckFoxPlat](https://github.com/platima/luckfox-pico/assets/13729856/dcab78c0-f3aa-4317-a626-0dc40819800d)
 
 # Platima's Changes
-** NOTE:** These are not done yet, I'm committing as I go, once it's done, I'll issue a 'Release' with both images, and a tag.
+**NOTE:** These are not done yet, I'm committing as I go, once it's done, I'll issue a 'Release' with both images, and a tag.
 
 2024-03-30 Update: Busy for a few weeks, so I'll have to get back to this one and finish updating the defconfigs. Likely when I do a video abouthe Pico Max!
 
